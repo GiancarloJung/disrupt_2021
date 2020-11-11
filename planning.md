@@ -1,7 +1,45 @@
 
-# Perguntas Executivas
+# Introdução
 
-Abordagem 3, Indicadores para Tomada de Decisão em Investimentos.
+O projeto **MrMovies** apresenta uma solução que possa prever o sucesso de um filme de forma automatizada, para melhor apoiar as **decisões dos investidores dos filmes**.
+
+Investir na indústria do cinema é uma grande oportunidade porém complexa e de alto risco, além de se conectar com os melhores talentos para o projeto, acompanhar os custos e o processo de produção e distribuição o mais díficil é lidar com o lado pessoal de um filme. O que os críticos de cinema e o público alvo esperam de um filme é sempre algo muito pessoal, e achar a fórmula de sucesso é um trabalho arduo, tando para os investidores experientes quanto para os que recém entraram no negócio.
+
+Podemos dividir a formula de sucesso de um filme em três pilares: o da **equipe**, o da **história** e o das **finanças**. Assim, é importante possuir um balanço entre a equipe e os talentos necessários para executar a produção do filme, um roteiro que seja cativante e engajado com o público e por último e um balanço de contas que permita que o negócio seja sustentável do início ao fim.  
+
+![Os Três Pilares](link_pilares)
+
+O **MrMovies** foi concebido como uma ferramenta que auxilia investidores a encontrar o projeto ideal para aplicar os seus recursos e esforços, oferecendo *insights* para uma tomada de decisão acertiva. Ela foi idealizada para atuar dentro de um ecossistema *data-driven* complementando outras ferramentas e algoritmos que possam existir.
+
+Dessa forma, em posse do **MrMovies** um investidor é capaz de responder as seguintes perguntas executivas que o irão auxiliar a tomar a sua decisão, utilizando pontuações e fórmulas presentes no sistema (calculadas baseando-se em conjuntos de dados e em algoritmos de machine learning).
+
+
+## Equipe
+
+Do ponto de vista das pessoas envolvidas na produção de um projeto de cinema, a solução oferecerá insumos para as seguintes perguntas executivas:
+
+### Qual a pontuação de um Produtor?
+
+Um produtor de cinema é uma pessoa que supervisiona a produção de filmes, sejam eles contratados por uma produtora ou trabalhando de forma independente, os produtores planejam e coordenam vários aspectos da produção do filme, como a seleção do roteiro, coordenação da redação, direção e edição e obtenção de financiamento.
+
+### Qual a pontuação da Equipe de Talentos?
+
+A equipe de talentos de um filme (comumente chamada de *cast and crew*) é composta pelos atores, atrizes, diretores e outros profissionais que atuam atrás das cameras e trabalham no filme. A medida que o projeto vai tomando forma e essas pessoas começam a compor parte do time o sucesso ou fracasso do filme começa a ser definido.
+
+### Qual o score de um filme baseado no time que trabalha nele?
+
+Utilizando a pontuação do produtor e dos talentos envolvidos no projeto o sistema calcula um *score* para o primeiro pilar de sucesso do filme, a equipe. Os usuários do sistema utilizam esse *score* como um dos fatores de decisão.
+
+
+## História
+
+Produzir um filme é contar uma história, as perguntas executivas abaixo buscam determinar se essa história será responsável pelo sucesso da produção.
+
+- *\[Teórico] [Modelo]* Dada a sinopse de um filme, qual o seu score?
+- *\[Teórico] [Modelo]* Dado uma série de avaliações de um filme, qual o seu score?
+- *\[Modelo]* Dado um filme qual o potencial de audiência dele (score)?
+
+
 
 ## Scores
 
@@ -24,7 +62,6 @@ Qualidade do talento envolvido (Cast and Crew)
 Modelo de Score da Pessoa
 Média do Filme
 
----
 
 ### Script score
 
@@ -34,8 +71,8 @@ Qualidade do Script
 
 #### Perguntas
 
-- Dado uma sinopse, qual o score do filme?
-- Dado uma série de reviews, qual o score do filme?
+- *\[Teórico] [Modelo]* Dada a sinopse de um filme, qual o seu score?
+- *\[Teórico] [Modelo]* Dado uma série de avaliações de um filme, qual o seu score?
 
 #### Modelos (Teórico)
 
@@ -46,13 +83,12 @@ Qualidade do Script
 
 #### Perguntas
 
-- Dado um filme qual o potencial de audiência dele (score)?
+- *\[Modelo]* Dado um filme qual o potencial de audiência dele (score)?
 
 #### Modelos
 
 Modelo de Regressão da Audiência
 
----
 
 ### Financial score
 
@@ -60,7 +96,7 @@ Modelo de Regressão da Audiência
 
 #### Perguntas
 
-- Qual é a taxa de risco de um filme baseada nas suas informações financeiras?
+- *\[Modelo]* Qual é a taxa de risco de um filme baseada nas suas projeções financeiras?
 
 #### Algoritmos
 
@@ -68,25 +104,9 @@ Modelo de Regressão Financeira
 
 `| Movie | Genre | Country | Release Date |`
 
-- Qual seŕa a performance de filme baseado nas suas expectativas de mercado?
+- *\[Modelo]* Qual será a performance de filme baseado nas suas expectativas de mercado?
+- *\[Fórmula]* Qual o score financeiro de um filme?
 
-
----
-
-## Perguntas
-
-- [Modelo] Qual a pontuação de um Produtor?
-- [Modelo] Qual a pontuação de um Ator/Atriz/Diretores?
-- [Fórmula] Qual o score de um filme dado o time que trabalha nele?
-
-- [Teórico] [Modelo] Dado uma sinopse, qual o score do filme?
-- [Teórico] [Modelo] Dado uma série de reviews, qual o score do filme?
-- [Modelo] Dado um filme qual o potencial de audiência dele (score)?
-
-- [Modelo] Qual é a taxa de risco de um filme baseada nas suas projeções financeiras?
-- [Modelo] Qual será a performance de filme baseado nas suas expectativas de mercado?
-- [Fórmula] Qual o score financeiro de um filme?
-- [Fórmula] Qual o score global de um filme? (baseado nos tres pilares)
 
 ## O desafio
 
