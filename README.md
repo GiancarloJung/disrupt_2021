@@ -1,6 +1,8 @@
 ![disrupt](https://www.fiap.com.br/wp-content/themes/fiap2016/images/graduacao/dsrpt21/mobile/01.png)
 
-# Disrupt 2021
+# MrMovies
+
+## Disrupt 2021
 
 Vocês foram contratados por uma empresa de análise de dados para desenvolverem uma solução que possa prever o sucesso de um filme de forma automatizada, para melhor apoiar as **decisões dos investidores dos filmes**.
 
