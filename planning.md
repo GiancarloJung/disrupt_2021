@@ -7,7 +7,7 @@ Investir na indústria do cinema é uma grande oportunidade porém complexa e de
 
 Podemos dividir a formula de sucesso de um filme em três pilares: o da **equipe**, o da **história** e o das **finanças**. Assim, é importante possuir um balanço entre a equipe e os talentos necessários para executar a produção do filme, um roteiro que seja cativante e engajado com o público e por último e um balanço de contas que permita que o negócio seja sustentável do início ao fim.  
 
-![Os Três Pilares](link_pilares)
+![Os Três Pilares](/pilares.png)
 
 O **MrMovies** foi concebido como uma ferramenta que auxilia investidores a encontrar o projeto ideal para aplicar os seus recursos e esforços, oferecendo *insights* para uma tomada de decisão acertiva. Ela foi idealizada para atuar dentro de um ecossistema *data-driven* complementando outras ferramentas e algoritmos que possam existir.
 
