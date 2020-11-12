@@ -35,11 +35,72 @@ Utilizando a pontuação do produtor e dos talentos envolvidos no projeto o sist
 
 Produzir um filme é contar uma história, as perguntas executivas abaixo buscam determinar se essa história será responsável pelo sucesso da produção.
 
+### Dado uma série de avaliações de um filme, qual o seu score?
+
+Com avaliações textuais de filmes realizados por espectadores e críticos é possivel utilizar ferramentas de análise de sentimento para determinar a performance de um filme. Combinando dados históricos em conjunto com avaliações realizadas por uma equipe de críticos especialistas e pesquisas de mercado é possível determinar a crítica de um filme que ainda está em processo de produção.
+
+### Dado um filme qual o potencial de audiência dele (score)?
+
+Utilizando os gêneros e temáticas abordadas pelo filme e a audiência alvo é possível determinar o potencial de audiência do filme, e o potencial que ele tem comparado com dados históricos.
+
+
+## Finanças
+
+As perguntas executivas abaixo servem para analizar o potencial de sucesso do projeto do ponto de vista dos seus aspectos financeiros.
+
+### Qual é a taxa de risco de um filme baseada nas suas projeções financeiras?
+
+Analizando o valor do custo inicial do projeto junto com os valores projetados de arrecadação é possível determinar se a relação de lucro sobre investimento (ROI) determinam se o projeto é de alto ou baixo risco.
+
+### Qual será a performance de filme baseado nas suas expectativas de mercado?
+
+Expectativas de mercado podem incluir, por exemplo, os gêneros e temáticas abordadas, o segmento demográfico que se busca atingir, a data e a região de lançamento prevista. Essas informações ajudam a determinar a performance e popularidade de um filme no segmento de mercado que ele busca atingir baseando-se em dados históricos.
+
+### Qual o score financeiro de um filme?
+
+Utilizando as pontuações financeiras o sistema calcula um *score* para o último pilar de sucesso do filme, os usuários do sistema utilizam esse *score* como um dos fatores de decisão.
+
+## Geral
+
+### Qual o score global de um filme?
+
+Baseando-se em todos os scores calculados nos três pilares de análise do projeto o sistema produz um score global que é utilizado pelos usuários para determinar o potencial de investimento do filme.
+
+
+## Requisitos do Projeto
+
+
+## Escopo Inicial
+
+
+## Histórias de Usuário
+
+
+---
+
+# Lista de Perguntas Executivas
+
+Equipe:
+
+- *\[Modelo]* Qual a pontuação de um Produtor?
+- *\[Modelo]* Qual a pontuação de um Ator/Atriz/Diretores?
+- *\[Fórmula]* Qual o score de um filme dado o time que trabalha nele?
+
+
+História:
+
 - *\[Teórico] [Modelo]* Dada a sinopse de um filme, qual o seu score?
 - *\[Teórico] [Modelo]* Dado uma série de avaliações de um filme, qual o seu score?
 - *\[Modelo]* Dado um filme qual o potencial de audiência dele (score)?
 
+Finanças:
+- *\[Modelo]* Qual é a taxa de risco de um filme baseada nas suas projeções financeiras?
+- *\[Modelo]* Qual será a performance de filme baseado nas suas expectativas de mercado?
+- *\[Fórmula]* Qual o score financeiro de um filme?
 
+Geral:
+
+- *\[Fórmula]* Qual o score global de um filme? (baseado nos tres pilares)
 
 ## Scores
 
@@ -53,9 +114,9 @@ Qualidade do talento envolvido (Cast and Crew)
 
 #### Perguntas
 
-- Qual a pontuação/classificação/score de um Produtor?
-- Qual a pontuação/classificação/score de um Ator/Atriz?
-- Qual o score de um filme dado o time que trabalha nele?
+- *\[Modelo]* Qual a pontuação de um Produtor?
+- *\[Modelo]* Qual a pontuação de um Ator/Atriz/Diretores?
+- *\[Fórmula]* Qual o score de um filme dado o time que trabalha nele?
 
 #### Modelos
 
