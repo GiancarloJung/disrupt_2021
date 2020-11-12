@@ -128,7 +128,7 @@ Média do Filme
 
 Qualidade do Script
 
-`| Movie | Script |`
+`| Movie | Sinopsis | Reviews |`
 
 #### Perguntas
 
@@ -140,7 +140,7 @@ Qualidade do Script
 - Análise de Sentimento da Sinopse
 - Análise de Sentimento da Review
 
-`| Movie | Genre | Target Audience | Audience Score | Critic Score | Número de Oscars |`
+`| Movie | Genre | Target Audience | Audience Score | Critic Score |`
 
 #### Perguntas
 
