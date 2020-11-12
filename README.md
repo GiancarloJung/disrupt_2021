@@ -8,21 +8,6 @@ Vocês foram contratados por uma empresa de análise de dados para desenvolverem
 
 ---
 
-# Possíveis Abordagens
-
-* Transformações na Industria do Cinema
-  - Análise da performance de filmes em novos meios de distribuição
-  - Análise do comportamento de consumidor e mudança de tendências
-
-
-* Otimização de Investimentos de Marketing
-  - Análise de investimentos, lucro e sucesso do filme para otimizar o investimento de marketing
-
-
-* Indicadores para tomada de Decisão em Investimentos
-
----
-
 # Entregas
 
 ## Entrega I
