@@ -1,4 +1,3 @@
-
 # Introdução
 
 O projeto **MrMovies** apresenta uma solução que possa prever o sucesso de um filme de forma automatizada, para melhor apoiar as **decisões dos investidores dos filmes**.
@@ -66,110 +65,96 @@ Utilizando as pontuações financeiras o sistema calcula um *score* para o últi
 
 Baseando-se em todos os scores calculados nos três pilares de análise do projeto o sistema produz um score global que é utilizado pelos usuários para determinar o potencial de investimento do filme.
 
-
-## Requisitos do Projeto
-
-
-## Escopo Inicial
-
-
-## Histórias de Usuário
-
-
 ---
 
-# Lista de Perguntas Executivas
+# Escopo Inicial
 
-Equipe:
+O escopo inicial do projeto compreende a definição e elaboração de um MVP (Minimum Viable Product) que forneça análises iniciais utilizando dados públicos disponíveis na internet de forma a validar os conceitos de análise e a solução. Com base nesse escopo, foram levantados os requisitos e escritas as histórias de usuário abaixo.
 
-- *\[Modelo]* Qual a pontuação de um Produtor?
-- *\[Modelo]* Qual a pontuação de um Ator/Atriz/Diretores?
-- *\[Fórmula]* Qual o score de um filme dado o time que trabalha nele?
+# Requisitos do Projeto
 
+Baseando-se nas perguntas executivas, podemos definir os seguintes requisitos para o projeto:
 
-História:
+- Análise de Filmes
 
-- *\[Teórico] [Modelo]* Dada a sinopse de um filme, qual o seu score?
-- *\[Teórico] [Modelo]* Dado uma série de avaliações de um filme, qual o seu score?
-- *\[Modelo]* Dado um filme qual o potencial de audiência dele (score)?
+- Rankeamento de Filmes
 
-Finanças:
-- *\[Modelo]* Qual é a taxa de risco de um filme baseada nas suas projeções financeiras?
-- *\[Modelo]* Qual será a performance de filme baseado nas suas expectativas de mercado?
-- *\[Fórmula]* Qual o score financeiro de um filme?
+- Cadastro de Filmes
 
-Geral:
-
-- *\[Fórmula]* Qual o score global de um filme? (baseado nos tres pilares)
-
-## Scores
-
-### Team score
-
-`| Movie | Producer | Actors/Actresses/Directors | Score |`
-
-Reputação do Produtor
-Experiência do Produtor
-Qualidade do talento envolvido (Cast and Crew)
-
-#### Perguntas
-
-- *\[Modelo]* Qual a pontuação de um Produtor?
-- *\[Modelo]* Qual a pontuação de um Ator/Atriz/Diretores?
-- *\[Fórmula]* Qual o score de um filme dado o time que trabalha nele?
-
-#### Modelos
-
-Modelo de Score da Pessoa
-Média do Filme
+- Scrapping de Dados
 
 
-### Script score
+# Personas
 
-Qualidade do Script
+## Stakeholder
 
-`| Movie | Sinopsis | Reviews |`
+Os stakeholders são as pessoas ou organizações que podem ser afetadas pelo projeto de forma direta e positiva. No caso deste projeto esse papel é desempenhado por uma empresa contratante que é especializada ou possui especialistas em investimentos no mercado cinematográfico. O objetivo principal do projeto é fornecer uma ferramente que melhore a capacidade analítica de um investidor de negócios para indetificação de novas oportunidades de investimento.
 
-#### Perguntas
+## Tech Lead
 
-- *\[Teórico] [Modelo]* Dada a sinopse de um filme, qual o seu score?
-- *\[Teórico] [Modelo]* Dado uma série de avaliações de um filme, qual o seu score?
+Atua como Líder Tecnológico liderando outros desenvolvedores de uma perspectiva técnica, incluindo seleção de tecnologia, estabelecimento de padrões de boa programação, estimativa realista e assistência contínua para resolução de problemas.
 
-#### Modelos (Teórico)
+## Arquiteto(a) de Software
 
-- Análise de Sentimento da Sinopse
-- Análise de Sentimento da Review
+O arquiteto de software é responsável por garantir que o software atenda aos requisitos do ponto de vista de segurança, escalabilidade, disponiblidade, manutenção e desempenho, alguém que entende o ciclo de vida de desenvolvimento de software e traz ferramentas e processos de engenharia de software para resolver desafios de operações clássicas.
 
-`| Movie | Genre | Target Audience | Audience Score | Critic Score |`
+## Engenheiro(a) de Software
+Responsável pela utilização de teorias, técnicas e ferramentas da Ciência da Computação para a produção e desenvolvimento dos componentes de software do projeto.
 
-#### Perguntas
-
-- *\[Modelo]* Dado um filme qual o potencial de audiência dele (score)?
-
-#### Modelos
-
-Modelo de Regressão da Audiência
+## Analista de Dados
+Os Analistas de Dados examinam uma grande quantidade de dados e extraem insights e padrões deles. Eles são responsáveis pela coleta, organização e obtenção de resumos estatísticos para tomadas de decisão.
 
 
-### Financial score
+# Epics, Features e Tarefas
 
-`| Movie | Budget | Gross/Profit |`
+## [Epic] Produto e Solução
 
-#### Perguntas
+O *epic* de **Produto e Solução** tem como objetivo validar o produto e a solução do ponto de vista de negócio e dos seus usuários.
 
-- *\[Modelo]* Qual é a taxa de risco de um filme baseada nas suas projeções financeiras?
+### [Feature] Protótipo Navegavel
 
-#### Algoritmos
+**"Como Stakeholder eu gostaria de ter uma lista de filmes para escolher em qual investir".**
 
-Modelo de Regressão Financeira
+Essa *feature* tem como objetivo planejamento e execução de um protótipo navegável para a solução do produto. Esse protótipo será utilizado para a validação da solução inicial frente aos *stakeholders* e como interface para visualização das primeiras análises desenvolvidas.
 
-`| Movie | Genre | Country | Release Date |`
+- Usuários e Autenticação
+- Cadastro de Filmes
+- Dashboard de Filmes
 
-- *\[Modelo]* Qual será a performance de filme baseado nas suas expectativas de mercado?
-- *\[Fórmula]* Qual o score financeiro de um filme?
+## [Epic] Tecnologia e Infraestrutura
 
+O *epic* de **Tecnologia e Infraestrutura** tem como objetivo criar um ambiente de desenvolvimento para o projeto que permita sua execução.
 
-## O desafio
+### [Feature] Setup Inicial
 
-4 Modelos
-3 Fórumulas de Score
+**"Como um(a) Arquiteto(a) de Software eu quero possuir um Ambiente com todas as Tecnologias Necessárias para garantir o Desenvolvimento do Projeto".**
+
+Essa *feature* tem como objetivo instalar e configurar todas as tecnologias necessárias para o desenvolvimento do projeto, incluindo repositório, servidores, ambientes e deploy.
+
+- Estrutura do Projeto
+- Configuração de Tecnologias
+- Configuração da Pipeline de Deploy
+
+### [Feature] Modelagem de Dados
+
+**"Como um(a) Engenheiro(a) de Software eu quero possuir Acesso aos Dados Necessários para Desenvolver meus Algoritmos".**
+
+Essa *feature* tem como objetivo a modelagem dos bancos de dados necessários e o desenvolvimento de scripts para rotinas de ETL e scrapping, necessários para montar o conjunto de dados utilizado pelos algoritmos de Machine Learning.
+
+- Modelagem de Dados
+- Scripts de Scrapping
+- Scripts de ETL
+
+## [Epic] Análise de Dados
+
+O *epic* de **Análise de Dados** tem como objetivo a criação de algoritmos de Machine Learning para desempenhar análises de dados e oferecer insights aos *stakeholders*.
+
+### [Feature] Análise de Dados
+
+**"Como Investidor de Negócios eu gostaria saber o score de um filme para decidir se é um investimento adequado".**
+
+Essa *feature* tem como objetivo a elaboração e treinamento de algoritmos de Machine Learning para análise e classificação de dados, assim como extração de métricas e resultados de BI.
+
+- Pesquisa de Datasets
+- Treinamento e Teste de Algoritmos
+- Criação e Validação de Fórmulas
