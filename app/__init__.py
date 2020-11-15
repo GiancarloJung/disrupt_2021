@@ -1,12 +1,13 @@
 import streamlit as st
 from app.db import Database
 import awesome_streamlit as ast
-from app.pages import dashboard, data_analysis
+from app.pages import admin, dashboard, data_analysis
 
 
 PAGES = {
     "Dashboard": dashboard,
-    "Data Analysis": data_analysis
+    "Data Analysis": data_analysis,
+    "Admin": admin
 }
 
 def run():
