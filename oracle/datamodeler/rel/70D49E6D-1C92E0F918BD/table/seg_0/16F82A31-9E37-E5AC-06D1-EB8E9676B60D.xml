@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16F82A31-9E37-E5AC-06D1-EB8E9676B60D" name="dm_people">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 02:01:11 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pk_people" id="AE385D82-B43E-59EB-7337-CAF700F4F91C">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 02:02:28 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="BB7D4468-2D1A-F94A-D758-5CDA7CDB3A11">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 02:02:28 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alias" id="89EF78F7-4F63-7017-DB53-45EEC961B9FE">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 02:02:39 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2555</dataTypeSize>
+<ownDataTypeParameters>2555,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2384892-DE01-034C-6A43-DAA3D06DDE13" name="dm_people_PK">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 02:02:28 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE385D82-B43E-59EB-7337-CAF700F4F91C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

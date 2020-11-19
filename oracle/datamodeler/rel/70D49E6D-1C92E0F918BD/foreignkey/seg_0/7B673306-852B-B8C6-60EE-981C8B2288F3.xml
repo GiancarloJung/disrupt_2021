@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7B673306-852B-B8C6-60EE-981C8B2288F3" containerWithKeyObject="02DD6B6B-2D1B-F22C-FF67-450BD8E91AFA" localFKIndex="21705CF4-48FA-A1A2-E235-CD70D1DD6096" name="ft_movies_dm_countries_FK">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 02:05:42 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<referredTableLongName>dm_countries</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EFED021F-1D6A-6E01-0F90-FF508AB20DBD</referredTableID>
+<keyObject>C15EC8F2-B412-E2A3-C91D-23EADBB7CB08</keyObject>
+<referredKeyID>C15EC8F2-B412-E2A3-C91D-23EADBB7CB08</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sk_countries</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

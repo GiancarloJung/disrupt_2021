@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A3FB17D-4C5A-9782-5AD5-C2874E2C43D5" name="dm_genre_groups">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 01:46:10 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_genre_groups" id="FFD61F7B-0553-4273-D25F-279C57D9C584">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 01:46:38 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fk_genres" id="6D9D70B6-BCE7-0E84-E82D-9DD322505B7D">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 01:49:47 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="844B50CE-4B5E-12F1-4001-ECDFD1539826" referredColumn="191B86D6-4EC2-33EC-DD3F-0FBCEDA334AA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="172057C6-082F-50F9-CDF0-7409D0856143" name="dm_genre_groups_PK">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 01:46:45 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFD61F7B-0553-4273-D25F-279C57D9C584"/>
+<colUsage columnID="6D9D70B6-BCE7-0E84-E82D-9DD322505B7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="737E0833-293F-8D44-A927-977360F6CE4E" name="dm_genre_groups_dm_genres_FK">
+<createdBy>root</createdBy>
+<createdTime>2020-11-19 02:10:12 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D9D70B6-BCE7-0E84-E82D-9DD322505B7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

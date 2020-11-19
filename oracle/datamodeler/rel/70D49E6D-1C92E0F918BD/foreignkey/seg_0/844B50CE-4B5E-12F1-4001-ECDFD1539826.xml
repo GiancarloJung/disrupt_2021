@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="844B50CE-4B5E-12F1-4001-ECDFD1539826" containerWithKeyObject="7A3FB17D-4C5A-9782-5AD5-C2874E2C43D5" localFKIndex="737E0833-293F-8D44-A927-977360F6CE4E" name="dm_genre_groups_dm_genres_FK">
+<createdBy>root</createdBy>
+<createdTime>2020-11-19 02:10:12 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<referredTableLongName>dm_genres</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D42D83C0-11C0-E3DE-4AAF-302DEEED60DF</referredTableID>
+<keyObject>4F3001A3-A755-03AC-65B2-490963E9835A</keyObject>
+<referredKeyID>4F3001A3-A755-03AC-65B2-490963E9835A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>sk_genres</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
