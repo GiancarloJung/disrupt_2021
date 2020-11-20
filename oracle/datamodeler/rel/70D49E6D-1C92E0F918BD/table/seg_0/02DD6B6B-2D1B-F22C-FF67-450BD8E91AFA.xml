@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="fk_countries" id="72FE2EBB-EFB8-EC0B-4720-179B5B43B680">
+<Column name="sk_countries" id="72FE2EBB-EFB8-EC0B-4720-179B5B43B680">
 <createdBy>giancarlo</createdBy>
 <createdTime>2020-11-19 01:49:11 UTC</createdTime>
 <ownerDesignName>datamodeler</ownerDesignName>
@@ -31,7 +31,7 @@
 <colAssociation fkAssociation="7B673306-852B-B8C6-60EE-981C8B2288F3" referredColumn="D46D7068-99B0-E36E-6A39-5D19D285398B"/>
 </associations>
 </Column>
-<Column name="fk_types" id="19453B31-D27F-C2C1-71EB-30DCE6E278E8">
+<Column name="sk_types" id="19453B31-D27F-C2C1-71EB-30DCE6E278E8">
 <createdBy>giancarlo</createdBy>
 <createdTime>2020-11-19 01:49:11 UTC</createdTime>
 <ownerDesignName>datamodeler</ownerDesignName>
@@ -44,7 +44,7 @@
 <colAssociation fkAssociation="CFB912C5-7F10-023C-F20F-58D50CE745DA" referredColumn="732143CA-1524-3415-05E9-E15AA7DBDD58"/>
 </associations>
 </Column>
-<Column name="fk_genre_groups" id="F9DC8F13-D561-CABD-600C-870EC76CE853">
+<Column name="sk_genre_groups" id="F9DC8F13-D561-CABD-600C-870EC76CE853">
 <createdBy>giancarlo</createdBy>
 <createdTime>2020-11-19 01:49:11 UTC</createdTime>
 <ownerDesignName>datamodeler</ownerDesignName>
@@ -57,7 +57,7 @@
 <colAssociation fkAssociation="BB9A8F17-4ED5-C51C-8D13-4B27CC00952A" referredColumn="FFD61F7B-0553-4273-D25F-279C57D9C584"/>
 </associations>
 </Column>
-<Column name="fk_casting_groups" id="93D4E947-270C-CD1F-30A3-DA54919C95D3">
+<Column name="sk_casting_groups" id="93D4E947-270C-CD1F-30A3-DA54919C95D3">
 <createdBy>giancarlo</createdBy>
 <createdTime>2020-11-19 01:49:11 UTC</createdTime>
 <ownerDesignName>datamodeler</ownerDesignName>
@@ -67,10 +67,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CE0FDD3F-1588-1318-1786-4E2AFD1D0293" referredColumn="D3CBECEF-4447-79B9-515F-6A5A07C26051"/>
+<colAssociation fkAssociation="CE0FDD3F-1588-1318-1786-4E2AFD1D0293" referredColumn="A440979A-C7A4-EB7F-F2C2-853720FF9E84"/>
 </associations>
 </Column>
-<Column name="fk_times" id="B91B0ACE-F3E4-8172-9DB1-EC47C770F2AF">
+<Column name="sk_times" id="B91B0ACE-F3E4-8172-9DB1-EC47C770F2AF">
 <createdBy>giancarlo</createdBy>
 <createdTime>2020-11-19 01:49:11 UTC</createdTime>
 <ownerDesignName>datamodeler</ownerDesignName>
@@ -155,20 +155,6 @@
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="dm_genre_groups_fk_genres" id="F4E2ECF8-53AE-BB66-0AEE-39A4174B228C">
-<createdBy>root</createdBy>
-<createdTime>2020-11-19 02:23:05 UTC</createdTime>
-<ownerDesignName>datamodeler</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="BB9A8F17-4ED5-C51C-8D13-4B27CC00952A" referredColumn="6D9D70B6-BCE7-0E84-E82D-9DD322505B7D"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="0A1288F2-EC66-A37F-70AE-821DB3FBCCA2" name="ft_movies_PK">
@@ -215,7 +201,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F9DC8F13-D561-CABD-600C-870EC76CE853"/>
-<colUsage columnID="F4E2ECF8-53AE-BB66-0AEE-39A4174B228C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="D8D8D3A2-0F9F-48DA-B7AB-D788CC045BE4" name="ft_movies_dm_times_FK">

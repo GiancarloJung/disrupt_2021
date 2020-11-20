@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="844B50CE-4B5E-12F1-4001-ECDFD1539826" containerWithKeyObject="7A3FB17D-4C5A-9782-5AD5-C2874E2C43D5" localFKIndex="737E0833-293F-8D44-A927-977360F6CE4E" name="dm_genre_groups_dm_genres_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DEF77757-AB4C-4EA7-2E4E-9A1C6B481993" containerWithKeyObject="66C8B508-08C9-A788-DE4A-C122323F99A9" localFKIndex="4C839F7B-5B15-D622-365D-ECFEBD46522E" name="dm_m_genres_dm_genres_FK">
 <createdBy>root</createdBy>
-<createdTime>2020-11-19 02:10:12 UTC</createdTime>
+<createdTime>2020-11-20 15:49:17 UTC</createdTime>
 <ownerDesignName>datamodeler</ownerDesignName>
 <referredTableLongName>dm_genres</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

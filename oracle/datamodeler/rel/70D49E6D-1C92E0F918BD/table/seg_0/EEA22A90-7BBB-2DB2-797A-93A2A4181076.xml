@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEA22A90-7BBB-2DB2-797A-93A2A4181076" name="dm_reviews">
+<createdBy>root</createdBy>
+<createdTime>2020-11-20 15:07:59 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_reviews" id="D9FF4DE8-49BB-D19A-A15B-3C20B52516C3">
+<createdBy>root</createdBy>
+<createdTime>2020-11-20 15:08:55 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sk_movies" id="0F822F62-E0D7-ACC9-6818-7310A9C35B7A">
+<createdBy>root</createdBy>
+<createdTime>2020-11-20 15:09:28 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99DFCB70-F462-E3CD-F585-A4A94862D363" referredColumn="100F602B-2943-2E77-755F-FB22A9C5D63D"/>
+</associations>
+</Column>
+<Column name="content" id="036B71DB-9B02-F14C-3C2A-2DF4C24B2E98">
+<createdBy>root</createdBy>
+<createdTime>2020-11-20 15:08:55 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sentiment" id="F9CC9023-2D79-E6C4-773D-3C27E2693FA6">
+<createdBy>root</createdBy>
+<createdTime>2020-11-20 15:08:55 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0D47A95-0E80-8522-F98A-F58C8BB7EADE" name="dm_reviews_PK">
+<createdBy>root</createdBy>
+<createdTime>2020-11-20 15:08:55 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9FF4DE8-49BB-D19A-A15B-3C20B52516C3"/>
+<colUsage columnID="0F822F62-E0D7-ACC9-6818-7310A9C35B7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8326EF59-B09A-4FEB-C867-5A4415E65358" name="dm_reviews_ft_movies_FK">
+<createdBy>root</createdBy>
+<createdTime>2020-11-20 15:09:56 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F822F62-E0D7-ACC9-6818-7310A9C35B7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
