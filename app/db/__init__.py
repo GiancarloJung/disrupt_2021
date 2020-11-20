@@ -22,6 +22,18 @@ class Database(metaclass=SingletonMeta):
         print(f'{self}: DB Instance Created')
 
 
+    def close_session():
+        self.session.close()
+
+        print(f'{self}: DB Session Closed')
+
+
+    def close_connection():
+        self.conneciton.close()
+
+        print(f'{self}: DB Connection Closed')
+
+
 class BaseModel(Base):
     __abstract__ = True
 
