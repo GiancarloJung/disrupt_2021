@@ -1,0 +1,227 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02DD6B6B-2D1B-F22C-FF67-450BD8E91AFA" name="ft_movies">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 01:36:37 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_movies" id="100F602B-2943-2E77-755F-FB22A9C5D63D">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 01:41:47 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sk_countries" id="72FE2EBB-EFB8-EC0B-4720-179B5B43B680">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 01:49:11 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B673306-852B-B8C6-60EE-981C8B2288F3" referredColumn="D46D7068-99B0-E36E-6A39-5D19D285398B"/>
+</associations>
+</Column>
+<Column name="sk_types" id="19453B31-D27F-C2C1-71EB-30DCE6E278E8">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 01:49:11 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CFB912C5-7F10-023C-F20F-58D50CE745DA" referredColumn="732143CA-1524-3415-05E9-E15AA7DBDD58"/>
+</associations>
+</Column>
+<Column name="sk_genre_groups" id="F9DC8F13-D561-CABD-600C-870EC76CE853">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 01:49:11 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB9A8F17-4ED5-C51C-8D13-4B27CC00952A" referredColumn="FFD61F7B-0553-4273-D25F-279C57D9C584"/>
+</associations>
+</Column>
+<Column name="sk_casting_groups" id="93D4E947-270C-CD1F-30A3-DA54919C95D3">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 01:49:11 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE0FDD3F-1588-1318-1786-4E2AFD1D0293" referredColumn="A440979A-C7A4-EB7F-F2C2-853720FF9E84"/>
+</associations>
+</Column>
+<Column name="sk_times" id="B91B0ACE-F3E4-8172-9DB1-EC47C770F2AF">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 01:49:11 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2ECBED92-D0BB-E8AE-5177-599448D54C74" referredColumn="2791EBC1-A010-4624-0C53-1381B8F007B3"/>
+</associations>
+</Column>
+<Column name="title" id="983E6B1F-D884-947D-B314-066638132A69">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 01:40:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="7632661B-7171-89EC-D8BD-7909EF89DF4B">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 01:40:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="runtime" id="DF423A6D-0D41-7F3D-0ABE-8942372887CF">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 01:40:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="6D38FAD6-F708-5F2D-DC84-8FEF5693AE04">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 01:40:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="metascore" id="C07B06B6-03D2-799A-4432-98A341B76F43">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 01:40:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="revenue" id="BCE638B0-283D-842B-18DC-96CE181D3BBF">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 01:40:54 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A1288F2-EC66-A37F-70AE-821DB3FBCCA2" name="ft_movies_PK">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 01:41:47 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="100F602B-2943-2E77-755F-FB22A9C5D63D"/>
+<colUsage columnID="72FE2EBB-EFB8-EC0B-4720-179B5B43B680"/>
+<colUsage columnID="19453B31-D27F-C2C1-71EB-30DCE6E278E8"/>
+<colUsage columnID="F9DC8F13-D561-CABD-600C-870EC76CE853"/>
+<colUsage columnID="93D4E947-270C-CD1F-30A3-DA54919C95D3"/>
+<colUsage columnID="B91B0ACE-F3E4-8172-9DB1-EC47C770F2AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21705CF4-48FA-A1A2-E235-CD70D1DD6096" name="ft_movies_dm_countries_FK">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 02:05:42 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72FE2EBB-EFB8-EC0B-4720-179B5B43B680"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28791374-066F-34E8-1A16-9423B30A493A" name="ft_movies_dm_types_FK">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 02:05:42 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19453B31-D27F-C2C1-71EB-30DCE6E278E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4772B6D9-0B47-6BD3-E6EB-AA44C4F5C1F4" name="ft_movies_dm_genre_groups_FK">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 02:05:42 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9DC8F13-D561-CABD-600C-870EC76CE853"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8D8D3A2-0F9F-48DA-B7AB-D788CC045BE4" name="ft_movies_dm_times_FK">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 02:05:42 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B91B0ACE-F3E4-8172-9DB1-EC47C770F2AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B118FC33-57ED-EDAD-3302-7A0F5C5CE7F3" name="ft_movies_dm_casting_groups_FK">
+<createdBy>root</createdBy>
+<createdTime>2020-11-19 02:22:06 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93D4E947-270C-CD1F-30A3-DA54919C95D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

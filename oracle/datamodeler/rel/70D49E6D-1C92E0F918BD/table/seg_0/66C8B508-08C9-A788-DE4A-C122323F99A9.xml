@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66C8B508-08C9-A788-DE4A-C122323F99A9" name="dm_movie_genres">
+<createdBy>root</createdBy>
+<createdTime>2020-11-20 15:11:22 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_movie_genres" id="6ABA0833-678F-06FA-52CB-76FDE406D918">
+<createdBy>root</createdBy>
+<createdTime>2020-11-20 15:12:10 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sk_movie_genre_groups" id="C17D51F1-FCC5-600F-8452-DA4148711F76">
+<createdBy>root</createdBy>
+<createdTime>2020-11-20 15:12:29 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5527F70E-A6AD-FFB1-C9C2-9540484F4A69" referredColumn="FFD61F7B-0553-4273-D25F-279C57D9C584"/>
+</associations>
+</Column>
+<Column name="sk_genres" id="FFCFEF39-59A2-E687-D09C-B1945BAC5EEE">
+<createdBy>root</createdBy>
+<createdTime>2020-11-20 15:12:10 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DEF77757-AB4C-4EA7-2E4E-9A1C6B481993" referredColumn="191B86D6-4EC2-33EC-DD3F-0FBCEDA334AA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="920E2087-6E4D-EE79-E799-B19AD59A0779" name="dm_movie_genres_PK">
+<createdBy>root</createdBy>
+<createdTime>2020-11-20 15:12:10 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6ABA0833-678F-06FA-52CB-76FDE406D918"/>
+<colUsage columnID="FFCFEF39-59A2-E687-D09C-B1945BAC5EEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1A749F3-8658-A411-B58B-2B0EE170D348" name="dm_m_gen_dm_m_gen_groups_FK">
+<createdBy>root</createdBy>
+<createdTime>2020-11-20 15:15:43 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C17D51F1-FCC5-600F-8452-DA4148711F76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C839F7B-5B15-D622-365D-ECFEBD46522E" name="dm_m_genres_dm_genres_FK">
+<createdBy>root</createdBy>
+<createdTime>2020-11-20 15:49:17 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFCFEF39-59A2-E687-D09C-B1945BAC5EEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

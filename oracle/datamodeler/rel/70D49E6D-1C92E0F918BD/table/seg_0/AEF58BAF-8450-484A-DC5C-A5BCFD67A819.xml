@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEF58BAF-8450-484A-DC5C-A5BCFD67A819" name="dm_casting_groups">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 01:57:19 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sk_casting_groups" id="A440979A-C7A4-EB7F-F2C2-853720FF9E84">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 01:59:44 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2C0C8E4-54BA-8AA9-F4CE-DAF786213BD2" name="dm_casting_groups_PK">
+<createdBy>root</createdBy>
+<createdTime>2020-11-19 02:21:13 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A440979A-C7A4-EB7F-F2C2-853720FF9E84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

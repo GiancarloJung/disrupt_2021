@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2ECBED92-D0BB-E8AE-5177-599448D54C74" containerWithKeyObject="02DD6B6B-2D1B-F22C-FF67-450BD8E91AFA" localFKIndex="D8D8D3A2-0F9F-48DA-B7AB-D788CC045BE4" name="ft_movies_dm_times_FK">
+<createdBy>giancarlo</createdBy>
+<createdTime>2020-11-19 02:05:42 UTC</createdTime>
+<ownerDesignName>datamodeler</ownerDesignName>
+<referredTableLongName>dm_times</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>32D97847-8945-9F96-8455-5409802FF390</referredTableID>
+<keyObject>5933A271-3769-2A5C-6988-15E80D4B4AF3</keyObject>
+<referredKeyID>5933A271-3769-2A5C-6988-15E80D4B4AF3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pk_times</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
