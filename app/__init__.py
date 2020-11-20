@@ -12,6 +12,7 @@ PAGES = {
 
 def run():
     st.set_page_config(layout="wide")
+    st.set_option('deprecation.showPyplotGlobalUse', False)
 
     st.sidebar.title("Navigation")
     selection = st.sidebar.radio("Go to", list(PAGES.keys()))
