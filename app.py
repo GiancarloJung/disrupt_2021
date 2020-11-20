@@ -1,6 +1,7 @@
 import config
 import app
 
+
 def main():
     app.run()
 
